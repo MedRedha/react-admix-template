@@ -1,0 +1,188 @@
+.App {
+  display: flex;
+  flex: 1 1 100%;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #eff0f6;
+}
+
+.AppMenu {
+  display: flex;
+  background: linear-gradient(0deg, #86c1cd, #062168);
+  height: 100%;
+  width: 7%;
+  flex-direction: column;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 0px;
+}
+
+.SideMenuHeader {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+  margin: 2vw 10vw 2vw 1.5vw;
+  padding: 0em 0 0 0.5vw;
+}
+
+.AppMain {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 5% 10% 0% 10%;
+}
+
+.Tab {
+  display: flex;
+  flex-direction: row;
+  width: 93%;
+  background-color: white;
+  padding: 1em 1em;
+}
+
+.Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 93%;
+  height: fit-content;
+}
+
+.MenuButton .MenuButton:hover {
+  border-left: solid #f2f2f2;
+  background-color: black;
+}
+
+.MiddleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4em;
+  height: fit-content;
+  width: 100%;
+}
+
+.Center-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.ContainerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 0px;
+}
+
+.Control {
+  display: flex;
+  justify-content: center;
+  flex-direction: space-between;
+  width: fit-content;
+  margin: 0px 1.5em 0px 0px;
+}
+
+.Title {
+  display: flex;
+  color: #09243f;
+  width: fit-content;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.VSeparator {
+  width: 1px;
+  height: 100%;
+  float: left;
+  border: 1px solid lightgray;
+}
+
+.HSeparator {
+  width: 93%;
+  height: 1px;
+  margin-top: 0.5em;
+  border: 1px solid lightgray;
+}
+
+.SecondTitle {
+  width: fit-content;
+  font-size: 18px;
+  font-family: "Montserrat bold", arial;
+  padding-right: 0.7em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #09243f;
+}
+
+.SecondTitle {
+  width: fit-content;
+  font-size: 18px;
+  font-family: "Montserrat bold", arial;
+  padding-right: 0.7em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #09243f;
+}
+
+.Sort {
+  display: block;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  margin-left: 1em;
+  width: auto;
+  height: 40px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 0.1em 0px #888888;
+  cursor: pointer;
+}
+
+.More {
+  margin-top: 0.5em;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.DropDownContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-left: 40px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.Right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: fit-content;
+  width: 40%;
+}
