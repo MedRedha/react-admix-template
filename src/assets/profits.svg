@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 384.003 384.003" style="enable-background:new 0 0 384.003 384.003;" xml:space="preserve" width="512px" height="512px" class=""><g><path style="fill:#09243F" d="M344.003,280.002h-48v-160h-24.906l48.906-58.813l48.906,58.813h-24.906L344.003,280.002  L344.003,280.002z" data-original="#09243F" class="" data-old_color="#09243F"/><rect x="184" y="152.002" style="fill:#09243F" width="48" height="128" data-original="#5785C4" class="" data-old_color="#5785C4"/><rect x="72" y="200.002" style="fill:#09243F" width="48" height="80" data-original="#CB5741" class="" data-old_color="#CB5741"/><g>
+	<path style="fill:#09243F" d="M16,48.002H0c0,144.7,0.003,161.946,0.003,288c138.256,0,246.806,0,384,0v-16h-368L16,48.002z" data-original="#010101" class="active-path" data-old_color="#010101"/>
+	<path style="fill:#09243F" d="M128.003,192.002h-64v96h64V192.002z M112.003,272.002h-32v-64h32V272.002z" data-original="#010101" class="active-path" data-old_color="#010101"/>
+	<path style="fill:#09243F" d="M240.003,144.002h-64v144h64V144.002z M224.003,272.002h-32v-112h32V272.002z" data-original="#010101" class="active-path" data-old_color="#010101"/>
+	<path style="fill:#09243F" d="M288.003,288.002h64v-160h32l-64-80l-64,80h32V288.002z M320.003,75.202l32,36.8h-16v160h-32v-160   h-16L320.003,75.202z" data-original="#010101" class="active-path" data-old_color="#010101"/>
+</g></g> </svg>
