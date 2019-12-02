@@ -1,0 +1,73 @@
+.MainContainer {
+  flex: 1;
+  padding: 0em 1em;
+  background-color: white;
+}
+
+.Header {
+  display: flex;
+  height: fit-content;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  font-size: small;
+}
+
+.Body {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  flex-direction: row;
+  align-items: flex-start;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  font-size: small;
+}
+
+.ComponentIcon {
+  align-self: center;
+  justify-content: flex-start;
+  height: 30px;
+  width: 20px;
+  margin: 5px 10px -5px 10px;
+}
+
+.Text {
+  width: fit-content;
+  font-size: 32px;
+  font-family: "Montserrat Bold", Helvetica;
+  padding-right: 0.2em;
+  margin: 5px 5px 15px 10px;
+  color: #09243f;
+}
+
+.Rate-red {
+  display: flex;
+  height: 1.5em;
+  background-color: red;
+  padding: 3px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: smaller;
+  margin-top: 0.3em;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.Rate-green {
+  height: 1.5em;
+  padding: 3px;
+  background-color: #4FB911;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: smaller;
+  margin-top: 0.3em;
+  border-radius: 3px;
+  font-weight: bold;
+}
