@@ -1,5 +1,7 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
+import ReactDOM from "react-dom";
+import { TraceSpinner } from "react-spinners-kit";
 import "./App.css";
 import MenuButton from "./MenuButton";
 import DetailsComponent from "./DetailsComponent";
