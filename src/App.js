@@ -20,9 +20,12 @@ import full from "./assets/full.svg";
 import profits from "./assets/profits.svg";
 
 class App extends React.Component {
-  state = {
-    loading: true
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true
+    };
+  }
 
   componentDidMount() {
     demoAsyncCall().then(() => this.setState({ loading: false }));
