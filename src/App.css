@@ -191,14 +191,16 @@
   display: none;
 }
 
-.Cube-container {
+.Loading-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex: 1 1 100%;
   height: 100vh;
   width: 100vw;
   box-sizing: border-box;
   align-items: center;
-  background-color: #3f3f3f;
+  background-color: #ffffff;
 }
 
 .sk-cube-grid {
@@ -231,7 +233,7 @@
 
 .sk-cube-grid .sk-cube4 {
   animation-delay: 0.1s;
-  background-color: #00f000;
+  background-color: #f00070;
 }
 
 .sk-cube-grid .sk-cube5 {
