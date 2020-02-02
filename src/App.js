@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
 import ReactDOM from "react-dom";
-import { TraceSpinner } from "react-spinners-kit";
+import { PongSpinner, JellyfishSpinner } from "react-spinners-kit";
 import "./App.css";
 import MenuButton from "./MenuButton";
 import DetailsComponent from "./DetailsComponent";
@@ -37,8 +37,9 @@ class App extends React.Component {
     if (loading) {
       return (
         <div className="Loading-container">
-          <TraceSpinner size={70} color="#f00070" loading={loading} />
-          Scrumbling...
+          <PongSpinner size={120} color="#f00070" loading={loading} />
+          <br></br>
+          <div class="SecondTitle">Loading</div>
         </div>
       );
     }
@@ -137,7 +138,5 @@ class App extends React.Component {
 function demoAsyncCall() {
   return new Promise(resolve => setTimeout(() => resolve(), 7900));
 }
-
-ReactDOM.render(<App />, document.getElementById("root"));
 
 export default App;
