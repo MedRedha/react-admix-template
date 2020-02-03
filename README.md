@@ -6,9 +6,9 @@ To run the project :
 
 ### Open your terminal and navigate to the path of your choice.
 
-### `git clone https://github.com/MedRedha/admix-test.git`
+### `git clone https://github.com/MedRedha/react-admix-template.git`
 
-### `cd admix-test`
+### `cd react-admix-template`
 
 ### `yarn install`
 
